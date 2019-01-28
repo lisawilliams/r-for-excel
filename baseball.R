@@ -22,7 +22,9 @@ x = batting_extra[which(batting_extra$AB > 3 & batting_extra$yearID >= 1930),]
 
 x$age = x$yearID - x$birthYear
 
-hist(x$age)
+x[1:5, 1:6]
 
+hist(x$birthYear)
+summary(x$birthYear)
 
 
